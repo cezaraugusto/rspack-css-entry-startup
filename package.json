@@ -1,0 +1,14 @@
+{
+  "name": "rspack-css-entry-startup",
+  "version": "1.0.0",
+  "private": true,
+  "description": "an entry that lists a stylesheet next to a script calls a module the bundle no longer defines on rspack 2.2.4 and later",
+  "type": "module",
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "devDependencies": {
+    "rspack-2.2.3": "npm:@rspack/core@2.2.3",
+    "rspack-2.2.6": "npm:@rspack/core@2.2.6"
+  }
+}
