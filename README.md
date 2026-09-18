@@ -45,3 +45,5 @@ the stylesheet keeps an empty factory and the startup goes through a real requir
 - optimization options do not matter, the config above is enough
 - 2.2.4 is the release that added CSS entry bundling (web-infra-dev/rspack#14879), which is where to look first
 - webpack skips entry modules without a JavaScript source type when it renders the bootstrap, rspack does not
+
+filed as web-infra-dev/rspack#15766, fix in web-infra-dev/rspack#15767
